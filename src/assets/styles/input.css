@@ -67,6 +67,9 @@ swiper-slide img {
 .service-section .card-service {
   background-color: rgb(246, 249, 251);
 }
+.explore-section{
+  background-color: aliceblue;
+}
 .explore-section .explore-wifi img {
   border-radius: 20px;
 }
