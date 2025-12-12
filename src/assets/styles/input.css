@@ -1,0 +1,106 @@
+@import "tailwindcss";
+/* @tailwind components; */
+/* @tailwind utilities; */
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.add-on-section img,
+.sim-section img,
+.explore-section img {
+  border-radius: 20px 20px 0 0;
+}
+.add-on-section .data,
+.sim-section .data,
+.explore-section .data {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  border-radius: 0 0 20px 20px;
+}
+.service-section img {
+  border-radius: 20px 0 0 20px;
+}
+.service-section .learn-more,
+.card-cellcard .learn-more {
+  padding: 8px 20px;
+}
+.service-section .card-service {
+  background-color: rgb(246, 249, 251);
+}
+.explore-section .explore-wifi img {
+  border-radius: 20px;
+}
+.explore-section .explore-device {
+  width: 550px;
+}
+.explore-device .explore-device-img {
+  height: 50px !important;
+}
+.card-cellcard {
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card-cellcard img {
+  border-radius: 20px;
+  padding-right: 50px;
+}
+
+.fa-brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.footer-text {
+  color: gray;
+}
+.contact-icon {
+  padding: 3px;
+  width: 30px;
+  height: 30px;
+}
+.contact-icon .fa-brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
